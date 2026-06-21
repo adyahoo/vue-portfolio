@@ -57,7 +57,7 @@
 </template>
 
 <script setup>
-import educ from '@/assets/7.jpg';
+import educ from '@/assets/educ.jpg';
 import { Calendar, CheckCircle2, GraduationCap } from 'lucide-vue-next';
 
 const educationData = [

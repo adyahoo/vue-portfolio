@@ -45,7 +45,7 @@
 </template>
 
 <script setup>
-import about from '@/assets/2.jpg';
+import about from '@/assets/about.jpg';
 
 const stats = [
     { value: '4+', label: 'Clients' },
