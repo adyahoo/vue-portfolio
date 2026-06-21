@@ -33,11 +33,11 @@
 </template>
 
 <script setup>
-import blanjablanja from '../assets/projects/blanjablanja.jpg';
-import digitirta from '../assets/projects/digitirta.jpg';
-import gunabangsa from '../assets/projects/gunabangsa.png';
-import hino from '../assets/projects/hino_connect.png';
-import senyumku from '../assets/projects/senyumku.png';
+import blanjablanja from '@/assets/projects/blanjablanja.jpg';
+import digitirta from '@/assets/projects/digitirta.jpg';
+import gunabangsa from '@/assets/projects/gunabangsa.png';
+import hino from '@/assets/projects/hino_connect.png';
+import senyumku from '@/assets/projects/senyumku.png';
 
 const projects = [
     {

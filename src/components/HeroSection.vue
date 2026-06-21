@@ -70,7 +70,7 @@
 </template>
 
 <script setup>
+import hero from '@/assets/1.jpg';
 import { Download } from 'lucide-vue-next';
-import hero from '../assets/1.jpg';
 
 </script>
