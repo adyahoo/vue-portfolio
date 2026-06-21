@@ -29,14 +29,27 @@
                     <!-- Button Section -->
                     <div class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
                         <!-- Hire Me Button -->
-                        <button
+                        <!-- <button
                             class="px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
                             <span
                                 class="absolute inset-0 rounded-3xl group-hover:scale-105 origin-center transition-all ease-in-out bg-primary border-2 border-transparent"></span>
                             <span class="text-white relative flex items-center justify-center">Hire Me</span>
-                        </button>
+                        </button> -->
                         <!-- Download Resume -->
                         <button
+                            class="px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
+                            <span
+                                class="absolute inset-0 rounded-3xl group-hover:scale-105 origin-center transition-all ease-in-out bg-primary border-2 border-transparent"></span>
+                            <span class="text-white relative flex items-center justify-center">
+                                <div class="scg-container">
+                                    <Download :size="24" class="text-white" />
+                                    <div class="download-loader text-white hidden" />
+                                </div>
+                                <a :href="resume" download="resume.pdf" class="pl-2 text-white">Download
+                                    resume</a>
+                            </span>
+                        </button>
+                        <!-- <button
                             class="border border-primary px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
                             <div
                                 class="hover:scale-105 transition-all ease-in-out flex justify-center items-center relative">
@@ -47,7 +60,7 @@
                                 <a href="/resume.pdf" download="resume.pdf" class="pl-2 text-primary">Download
                                     resume</a>
                             </div>
-                        </button>
+                        </button> -->
                     </div>
                 </div>
                 <!-- Image -->
@@ -71,6 +84,7 @@
 
 <script setup>
 import hero from '@/assets/hero.jpg';
+import resume from '@/assets/resume.pdf';
 import { Download } from 'lucide-vue-next';
 
 </script>
