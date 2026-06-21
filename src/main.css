@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #09c206;
+    --base-blue: #111827;
+  }
+  button:not([disabled]),
+  [role="button"]:not([disabled]) {
+    cursor: pointer;
+  }
+}
+
+@layer utilities {
+  .bg-primary {
+    background-color: var(--primary);
+  }
+  .bg-base-blue {
+    background-color: var(--base-blue);
+  }
+  .text-primary {
+    color: var(--primary);
+  }
+  .border-primary {
+    border-color: var(--primary);
+  }
+  .from-primary {
+    --tw-gradient-from: var(--primary);
+  }
+  .to-primary {
+    --tw-gradient-to: var(--primary);
+  }
+  .via-primary {
+    --tw-gradient-to: var(--primary);
+  }
+}
